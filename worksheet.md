@@ -46,7 +46,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture4.png)
 
-1. Test that your game works by clicking on the **Green Flag** and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
+1. Test that your game works by clicking on the green flag and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
 
 ## Making the character lift
 
