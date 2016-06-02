@@ -116,7 +116,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture16.png)
 
-1. When this is triggered, the game will get more difficult. So set `difficulty` to `-2`.
+1. When this is triggered, the game will get more difficult, so set `difficulty` to `-2`.
 
     ![capture](images/capture17.png)
 	
