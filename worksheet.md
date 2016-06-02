@@ -4,25 +4,29 @@ In this activity, you are going to make a game in Scratch that allows you to tes
 
 ## Getting the game assets.
 
-- For this project, you're going to need a sprite and a background. You can download a zip file containing all the game assets by clicking [here](images/scratch_olympics_weightlifter.zip) and choosing to download the file.
-- Once the file has been downloaded, you can unzip the archive by right-clicking on it and choosing `unzip`.
-- You should see two directories, one containing the weightlifter's costumes and the other containing the background.
+For this project, you're going to need a sprite and a background. You can download a zip file containing all the game assets by clicking [here](images/scratch_olympics_weightlifter.zip) and choosing to download the file. 
+
+Once the file has been downloaded, you can unzip the archive by right-clicking on it and choosing `unzip`.
+
+You should see two directories, one containing the weightlifter's costumes and the other containing the background.
 
 ## Importing the assets into Scratch
 
-- Open up Scratch by clicking `Menu` > `Programming` > `Scratch`
-- Now click on the **Stage** icon and then drag and drop the Olympics background into the **Backgrounds** tab. You can delete the original background.
-- Next click on **Sprite1** and then, one-by-one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
+Open up Scratch by clicking `Menu` > `Programming` > `Scratch`
+
+Now click on the **Stage** icon and then drag and drop the Olympics background into the **Backgrounds** tab. You can delete the original background.
+
+Next click on **Sprite1** and then, one-by-one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
 
 ![screencap](images/screencap.gif)
 
 ## Testing the animation
 
-- You can check whether the animation will work using the simple script shown below.
+You can check whether the animation will work using the simple script shown below.
 
 ![capture1](images/capture1.png)
 
-- Click on the green flag and watch the weightlifter do his thing!
+Click on the green flag and watch the weightlifter do his thing!
 
 ## Capturing the speed of key presses
 
