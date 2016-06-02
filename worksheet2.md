@@ -1,47 +1,42 @@
-# Resource Name
+# Scratch Olympics Weightlifter
 
-Short description of the resource
+[back to worksheet 1](worksheet.md)
 
-## The First Step
+In this section, you're going to use some physical buttons to control the weightlifter, instead of the keyboard.
 
-First we'll do X.
+## Wiring up the buttons
 
-1. First do A
+- The first step will be to add two buttons to a breadboard. If you are using larger buttons, they can be wired directly to the pins though. One button should be attached to **gpio2** and the other to **gpio3**. The Breadboard needs to be grounded, and then each button wired into ground. The diagram below should help.
 
-1. Then do B
+    ![circuit](images/circuit.png)
+	
+## Reading the buttons.
 
-1. Now do C in code:
+- So that Scratch can detect button pushes, you need to make a few broadcasts to start with. This will start the *gpioserver* and also tell Scratch that the buttons are on **gpio2** and **gpio3**
 
-    ```python
-    print("Hello world")
-    ```
+    ![capture](images/capture25.png)
+	
+- Click the green flag to set up the pins.
 
-    In Python the `print` function is something
+- Now, if you look in **Sensing** you should be able to click on the little arrow next to **slider** and be able to see that `gpio2` and `gpio3` are now there.
 
-1. Now do D
+    ![capture](images/capture26.png)
 
-1. Now do X
+## Using the buttons
 
-Now we have X
+- The logic for this next part is fairly complicated. You can use the same techniques as you did with the key-presses more or less.
 
-## The Next Step
+- If the button on **gpio2** is pressed, it's value drops to `0`. So if the sensor's values is 0 **and** the last key press was an `x` **and** the sensor for `gpio3` is 1, then `progress` can be increased.
 
-Now we've done X, we'll do Y.
+    ![capture](images/capture27.png)
+	
+- The script for the other button can then be duplicated and altered a little
 
-1. First do A
+    ![capture](images/capture28.png)
 
-1. Then do B
+- Again you might have to adjust the `wait` time for `progress` to be decreased, but have a go at your new game and see how well you do.
 
-1. Now do C in code:
+## What Next?
 
-    ```python
-    print("Hello world")
-    ```
-
-    In Python the `print` function is something
-
-1. Now do D
-
-1. Now do Y
-
-Now we have X and Y
+- Have a look at [Physical Computing in Scratch](https://www.raspberrypi.org/learning/physical-computing-with-scratch/). What other components could you use.
+- Why not try and add in a high-score table, so you can compete with your friends.
