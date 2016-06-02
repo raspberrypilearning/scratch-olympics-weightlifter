@@ -131,7 +131,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture20.png)
 
-## More **Rolls*
+## More **Rolls**
 
 1. There are a few more opportunities to *roll* the animation. Costumes 15, 16, 17 and 18 can be looped, as can 23, 24, 25, 26 and 27.
 
