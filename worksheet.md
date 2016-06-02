@@ -32,13 +32,13 @@ Click on the green flag and watch the weightlifter do his thing!
 
 The progress the weightlifter makes is going to be controlled by the speed at which the player can hit the `z` and `x` keys, so you need to create some scripts that will capture this data.
 
-1. You're going to need to **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed to get. The second, called `last_key`, will be used to store the last key press the player made.
+1. You're going to need two **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed to get. The second, called `last_key`, will be used to store the last key press the player made.
 1. Create these two variables by clicking in **Variables** and then clicking on **Make a variable**
-1. Then, you can start your script by setting `progress` to be 1 and `last_key` to be "x" when the game starts
+1. Then, you can start your script by setting `progress` to be 1 and `last_key` to be "z" when the game starts
 
     ![capture](images/capture2.png)
 
-1. The player must switch between hitting the `x` key and the `z` key each time, for the `progress` to increase. So when the `x` key is pressed, your script needs to check that the last key press was `z`. If it was, then `progress` can be increased and the `last_key` can be switched to `x`. This is called **conditional selection**. The action only occurs `if` a variable is at the correct value.
+1. The player must switch between hitting the `x` key and the `z` key for the `progress` to increase. So when the `x` key is pressed, your script needs to check that the last key press was `z`. If it was, then `progress` can be increased and the `last_key` can be switched to `x`. This is called **conditional selection**. The action only occurs `if` a variable is at the correct value.
 
     ![capture](images/capture3.png)
 	
@@ -48,7 +48,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
 1. Test that your game works by clicking on the **Green Flag** and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
 
-## Making the character Lift
+## Making the character lift
 
 1. There are a total of 29 costumes in the game. The sprite's costume can be continually set so that it is the same as the `progress` variable. That way, as `progress` increases, the costume will change. When `progress` reaches `29`, the game can end.
 
@@ -61,18 +61,18 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture6.png)
 	
-1. Have a go at testing you script. Click the green flag and then start hitting the `x` and `z` keys alternately to watch the weightlifter go.
-1. It's probably a good idea to reset the costume back to number 1 each time the script starts.
+1. Have a go at testing your script. Click the green flag and then start hitting the `x` and `z` keys alternately to watch the weightlifter go.
+1. It's a good idea to reset the costume back to number 1 each time the script starts.
 
     ![capture](images/capture7.png)
 
 ## Making it a little trickier.
 
-1. If you stop hitting the `x` and `z` keys then the weightlifter just stops lifting. It would be good if he started to put the weight back down if the player's speed on the keyboard decreases. This can be done by decreasing the value of `progress` every once in a while. To start with create a new variable and call it `difficulty`. This can be set to -1 in the main script.
+1. If you stop hitting the `x` and `z` keys, then the weightlifter just stops lifting. It would be good if he started to put the weight back down if the player's speed on the keyboard decreases. This can be done by decreasing the value of `progress` every once in a while. To start with, create a new variable and call it `difficulty`. This can be set to -1 in the main script.
 
     ![capture](images/capture8.png)
 	
-1. Grab a new `when green flag clicked` block and place it into the Scripts area. Now, you can use a `forever if` loop. This loop will run as long as a variable is at a certain value. You want it to run so long as `progress` is greater than `1`.
+1. Grab a new `when green flag clicked` block and place it into the Scripts area. You can now use a `forever if` loop. This loop will run as long as a variable is at a certain value. You want it to run as long as `progress` is greater than `1`.
 
     ![capture](images/capture9.png)
 
@@ -80,7 +80,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
     
 	![capture](images/capture10.png)
 
-1. Test you game to see the weightlifter pick up the weight as you hit the keys, but lower it again if you stop pressing them.
+1. Test your game to see the weightlifter pick up the weight as you hit the keys, but lower it again if you stop pressing them.
 
 1. If it's not working, have a look at the scripts below, and make sure yours are the same.
 
@@ -94,7 +94,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture12.png)
 
-1. The first thing that happens in `starting` is a switch to the first costume. This broadcast block should then contain a `repeat until` block. You can make the code inside it run until the game begins. You'll know the game has begun, because `progress` will increase above `1`. Use a `>` operator from **Operators** to help you build the script below.
+1. The first thing that happens in `starting` is a switch to the first costume. This broadcast block should then contain a `repeat until` block. You can make the code inside it run until the game begins. You'll know the game has begun because `progress` will increase above `1`. Use a `>` operator from **Operators** to help you build the script below.
 
     ![capture](images/capture13.png)
 
@@ -110,7 +110,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
 1. Run your script and the weightlifter should glance left and right. When you start hitting the `x` and `z` keys then he should start to lift. If you stop hitting the keys, he'll return the weight to the floor and then start glancing left and right again.
 
-## Adding in a **Strain** stage.
+## Adding in a "strain" stage.
 
 1. There are more sections that can be looped over. Create a new `when I receive` block and change it to `stage1`.
 
@@ -128,13 +128,13 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture19.png)
 
-1. Test your script again, to make sure that the animation *rolls* at the correct point. You might need to adjust the `wait` in the block below to a different number, to test it properly.
+1. Test your script again, to make sure that the animation rolls at the correct point. You might need to adjust the `wait` in the block below to a different number to test it properly.
 
     ![capture](images/capture20.png)
 
-## More **Rolls**
+## More rolls
 
-1. There are a few more opportunities to *roll* the animation. Costumes 15, 16, 17 and 18 can be looped, as can 23, 24, 25, 26 and 27.
+1. There are a few more opportunities to roll the animation. Costumes 15, 16, 17 and 18 can be looped, as can 23, 24, 25, 26 and 27.
 
 1. To do this, you can duplicate the scripts you have already used, and just alter the values and broadcasts. Try and build the blocks below and then put the broadcasts into your main script.
 
@@ -142,11 +142,11 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 	
 	![capture](images/capture22.png)
 	
-1. To test the script you might want to alter the `wait` value again that controls how fast `progress` is decreased.
+1. To test the script, you might want to alter the `wait` value which controls how quickly `progress` is decreased.
 
     ![capture](images/capture23.png)
 
-1. If your scripts are not working, have a look at the completed game below, to make sure you haven't made any errors.
+1. If your scripts are not working, have a look at the completed game below to make sure you haven't made any errors.
 
     ![capture](images/capture24.png)
 	
