@@ -30,7 +30,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
 1. You're going to need to **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed to get. The second, called `last_key`, will be used to store the last key press the player made.
 1. Create these two variables by clicking in **Variables** and then clicking on **Make a variable**
-1. Then, you can start your script by setting `progress` to be 1 and `last_key` to be "z", when the game starts
+1. Then, you can start your script by setting `progress` to be 1 and `last_key` to be "z" when the game starts
 
     ![capture](images/capture2.png)
 
