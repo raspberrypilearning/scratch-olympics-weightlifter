@@ -151,5 +151,5 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 	
 ## What Next?
 
-- Why not have a go at [worksheet 2](worksheet 2) and use some physical buttons to control the weightlifter instead of the keyboard.
+- Why not have a go at [worksheet 2](worksheet2.md) and use some physical buttons to control the weightlifter instead of the keyboard.
 
