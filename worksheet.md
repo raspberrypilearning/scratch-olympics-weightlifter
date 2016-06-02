@@ -134,7 +134,7 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
 ## More rolls
 
-1. There are a few more opportunities to roll the animation. Costumes 15, 16, 17 and 18 can be looped, as can 23, 24, 25, 26 and 27.
+1. There are a few more opportunities to roll the animation. Costumes 15, 16, 17, and 18 can be looped, as can 23, 24, 25, 26, and 27.
 
 1. To do this, you can duplicate the scripts you have already used, and just alter the values and broadcasts. Try and build the blocks below and then put the broadcasts into your main script.
 
