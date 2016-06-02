@@ -1,27 +1,24 @@
 # The Scratch Olympics - Weightlifting
 
-![](cover.gif)
-
-In this activity, you are going to make a game in Scratch that allows you to test your keyboard mashing skills. By repeatedly hitting the keyboard, the character will lift his barbell height into the air.
-There'll also be the opportunity to have a play with some physical computing, and introduce some arcade-style buttons into the game.
+In this activity, you are going to make a game in Scratch that allows you to test your keyboard mashing skills. By repeatedly hitting the keyboard, the character will lift their barbell high into the air. There'll also be the opportunity to have a play with some physical computing, and introduce some arcade-style buttons into the game.
 
 ## Getting the game assets.
 
 - For this project, you're going to need a sprite and a background. You can download a zip file containing all the game assets by clicking [here](images/scratch_olympics_weightlifter.zip) and choosing to download the file.
 - Once the file has been downloaded, you can unzip the archive by right-clicking on it and choosing `unzip`.
-- You should see two directories - one containing the weightlifter's costumes and the other containing the background.
+- You should see two directories, one containing the weightlifter's costumes and the other containing the background.
 
 ## Importing the assets into Scratch
 
 - Open up Scratch by clicking `Menu` > `Programming` > `Scratch`
 - Now click on the **Stage** icon and then drag and drop the Olympics background into the **Backgrounds** tab. You can delete the original background.
-- Next click on **Sprite1** and then one-by-one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
+- Next click on **Sprite1** and then, one-by-one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
 
 ![screencap](images/screencap.gif)
 
 ## Testing the animation
 
-- You can test the animation will work using the simple script shown below.
+- You can check whether the animation will work using the simple script shown below.
 
 ![capture1](images/capture1.png)
 
@@ -31,7 +28,7 @@ There'll also be the opportunity to have a play with some physical computing, an
 
 The progress the weightlifter makes is going to be controlled by the speed at which the player can hit the `z` and `x` keys. So you need to create some scripts that will capture this data.
 
-1. You're going to need to **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed. The second, called `last_key`, will be used to store the last key press the player made.
+1. You're going to need to **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed to get. The second, called `last_key`, will be used to store the last key press the player made.
 1. Create these two variables by clicking in **Variables** and then clicking on **Make a variable**
 1. Then, you can start your script by setting `progress` to be 1 and `last_key` to be "z", when the game starts
 
@@ -151,5 +148,5 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 	
 ## What Next?
 
-- Why not have a go at [worksheet 2](worksheet2.md) and use some physical buttons to control the weightlifter instead of the keyboard.
+- Why not have a go at [worksheet 2](worksheet2.md) and use some physical buttons to control the weightlifter instead of the keyboard?
 
