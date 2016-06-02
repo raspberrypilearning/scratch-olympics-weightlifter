@@ -1,5 +1,3 @@
 # Hardware Requirements
 
-Some extra information about the specifics of the hardware requirements or alternative products you can use.
-
-This file is optional
+Although the first part of the project requires no hardware, the second worksheet requires the use of some buttons and wire or header leads.

@@ -1,7 +1,6 @@
-By creating a something with your Raspberry Pi you will learn:
+By creating a Scratch Olympics Weightlifter game, you will learn:
 
-- How to set up a Raspberry Pi camera
-- How to use GPIO pins
-- How to create a circuit on a breadboard
-- Controlling GPIO pins with Python code
-- Controlling the camera module with Python code
+- How to animate costumes in Scratch
+- How to use conditional selection and Boolean operators to make changes in a program
+- How to conditional loops in a game
+- How to use physical buttons in Scratch.
