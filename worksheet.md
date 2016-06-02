@@ -1,6 +1,6 @@
-# The Scratch Olympics - Weightlifting
+# The Scratch Olympics Weightlifter
 
-In this activity, you are going to make a game in Scratch that allows you to test your keyboard mashing skills. By repeatedly hitting the keyboard, the character will lift their barbell high into the air. There'll also be the opportunity to have a play with some physical computing, and introduce some arcade-style buttons into the game.
+In this activity, you are going to make a game in Scratch that allows you to test your keyboard-mashing skills. By repeatedly hitting the keyboard, the character will lift their barbell high into the air. There'll also be the opportunity to have a play with some physical computing, and introduce some arcade-style buttons into the game.
 
 ## Getting the game assets.
 
