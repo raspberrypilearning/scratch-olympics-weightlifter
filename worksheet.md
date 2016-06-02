@@ -38,31 +38,31 @@ The progress the weightlifter makes is going to be controlled by the speed at wh
 
     ![capture](images/capture2.png)
 
-1. So that the player must switch between hitting the `x` key and the `z` key each time, for the `progress` to increase. So when the `x` key is pressed, your script needs to check that the last key press was `z`. If it was, then `progress` can be increased and the `last_key` can be switched to `x`. This is called **conditional selection**. The action only occurs `if` a variable is at the correct value.
+1. The player must switch between hitting the `x` key and the `z` key each time, for the `progress` to increase. So when the `x` key is pressed, your script needs to check that the last key press was `z`. If it was, then `progress` can be increased and the `last_key` can be switched to `x`. This is called **conditional selection**. The action only occurs `if` a variable is at the correct value.
 
     ![capture](images/capture3.png)
 	
-1. Of course, you want the same sort of thing to happen when you press the `z` key. You can duplicate the script by right-clicking on it and selecting **duplicate** from the context menu. Then change the duplicated script so it looks like the one below.
+1. Of course, you want the same sort of thing to happen when you press the `z` key. You can duplicate the script by right-clicking on it and selecting **duplicate** from the context menu, then change the duplicated script so it looks like the one below.
 
     ![capture](images/capture4.png)
 
-1. Test your game works by clicking on the **Green Flag** and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
+1. Test that your game works by clicking on the **Green Flag** and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
 
-## Making the character **Lift**
+## Making the character Lift
 
-1. There are a total of 29 costumes in the game. The sprites costume can be continually set so that it is the same as the `progress` variable. That way, as `progress` increases the costume will change. When `progress` reaches `29` the game can end.
+1. There are a total of 29 costumes in the game. The sprite's costume can be continually set so that it is the same as the `progress` variable. That way, as `progress` increases, the costume will change. When `progress` reaches `29`, the game can end.
 
 1. You will need a `forever` loop for the main logic of the game. Find a `forever` loop in the **Control** section and add it to the bottom of your main script.
 
     ![capture](images/capture5.png)
 
-1. Now withing the `forever` loop place another conditional block. This time you can use and `if else` block. If `progress` reaches `29` then the sprite can `say I win`, the costume can be set back to costume 1 and the script can be stopped. If `29` has not yet been reached, then the costume can be set to the same value as `progress`.
-1. You can't actually set a costume to a specific number in Scratch, but you can use the `round` operator from **Operators** instead, to set the costume to a specific number.
+1. Now place another conditional block within the `forever` loop. This time you can use an `if else` block. If `progress` reaches `29` then the sprite can `say "I win"`, the costume can be set back to costume 1, and the script can be stopped. If `29` has not yet been reached, then the costume can be set to the same value as `progress`.
+1. You can't actually set a costume to a specific number in Scratch, but you can use the `round` operator from **Operators** to set the costume to a specific number.
 
     ![capture](images/capture6.png)
 	
 1. Have a go at testing you script. Click the green flag and then start hitting the `x` and `z` keys alternately to watch the weightlifter go.
-1. It's probably a good idea to reset the costume back to number 1, each time the script starts.
+1. It's probably a good idea to reset the costume back to number 1 each time the script starts.
 
     ![capture](images/capture7.png)
 
