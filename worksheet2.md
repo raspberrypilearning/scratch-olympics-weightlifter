@@ -24,9 +24,9 @@ The first step is to add two buttons to a breadboard. If you're using larger but
 
 ## Using the buttons
 
-The logic for this next part is fairly complicated. You can use the same techniques as you did with the keypresses, more or less.
+The logic for this next part is fairly complicated. You can use the same techniques as you did with the key presses, more or less.
 
-- If the button on **gpio2** is pressed, its value drops to `0`. So if the sensor's values is 0 **and** the last keypress was an `x` **and** the sensor for `gpio3` is 1, then `progress` can be increased:
+- If the button on **gpio2** is pressed, its value drops to `0`. So if the sensor's values is 0 **and** the last key press was an `x` **and** the sensor for `gpio3` is 1, then `progress` can be increased:
 
     ![capture](images/capture27.png)
 	
