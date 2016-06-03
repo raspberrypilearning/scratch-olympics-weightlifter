@@ -12,13 +12,13 @@ The first step is to add two buttons to a breadboard. If you're using larger but
 	
 ## Reading the buttons
 
-- So that Scratch can detect button pushes, you need to make a few broadcasts to start with. This will start the *gpioserver* and also tell Scratch that the buttons are on **gpio2** and **gpio3**:
+1. So that Scratch can detect button pushes, you need to make a few broadcasts to start with. This will start the *gpioserver* and also tell Scratch that the buttons are on **gpio2** and **gpio3**:
 
     ![capture](images/capture25.png)
 	
-- Click the green flag to set up the pins.
+1. Click the green flag to set up the pins.
 
-- If you look in **Sensing** you should be able to click on the little arrow next to **slider** and see that `gpio2` and `gpio3` are now there.
+1. If you look in **Sensing** you should be able to click on the little arrow next to **slider** and see that `gpio2` and `gpio3` are now there.
 
     ![capture](images/capture26.png)
 
@@ -26,15 +26,15 @@ The first step is to add two buttons to a breadboard. If you're using larger but
 
 The logic for this next part is fairly complicated. You can use the same techniques as you did with the key presses, more or less.
 
-- If the button on **gpio2** is pressed, its value drops to `0`. So if the sensor's values is 0 **and** the last key press was an `x` **and** the sensor for `gpio3` is 1, then `progress` can be increased:
+1. If the button on **gpio2** is pressed, its value drops to `0`. So if the sensor's values is 0 **and** the last key press was an `x` **and** the sensor for `gpio3` is 1, then `progress` can be increased:
 
     ![capture](images/capture27.png)
 	
-- The script for the other button can then be duplicated and altered a little:
+1. The script for the other button can then be duplicated and altered a little:
 
     ![capture](images/capture28.png)
 
-- You might have to adjust the `wait` time for `progress` to be decreased, but have a go at your new game and see how well you do.
+You might have to adjust the `wait` time for `progress` to be decreased, but have a go at your new game and see how well you do.
 
 ## What next?
 
