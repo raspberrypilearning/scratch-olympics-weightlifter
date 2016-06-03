@@ -1,6 +1,6 @@
-- name: 2 x Buttons
+- name: 2 x buttons
   img: tactile-push-button
-- name: Wire or jumper leads
+- name: wire or jumper leads
   img: jumper-female-to-female
-- name: Breadboard
+- name: breadboard
   img: breadboard
