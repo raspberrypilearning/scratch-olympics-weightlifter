@@ -4,6 +4,8 @@
 
 In this resource you will use Scratch to make a weightlifting game, which requires the player to either rapidly hit the keyboard or buttons to make the weightlifter compete.
 
+[Resource testing feedback](https://docs.google.com/a/raspberrypi.org/forms/d/1M3SRyP-Bzoin-Wim8ZfupjFN1EwtQfqQCnuDE1G7LIU/viewform?entry.678098055=Scratch+Olympics+-+Weightlifter&entry.309275159&entry.594878714&entry.1804659587)
+
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
