@@ -123,7 +123,7 @@ Let's make the game a little more interesting now. You can start off by using a 
 
     ![capture](images/capture17.png)
 	
-1. This little script will be very similar to `starting`, except it will loop through costumes 9 to 12 and will stay working as long as `progress` is `< 9 or > 12`. Have a go at building the script shown below:
+1. This little script will be very similar to `starting`, except it will loop through costumes 9 to 12 and will stay working until `progress` is `< 9 or > 12`. Have a go at building the script shown below:
 
     ![capture](images/capture18.png)
 	
