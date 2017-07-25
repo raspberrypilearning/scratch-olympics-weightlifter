@@ -1,0 +1,34 @@
+---
+title: The Scratch Olympics Weightlifter
+hero_image: images/banner.png
+description: Make a weightlifter game in Scratch
+original_url: https://raspberrypi.org/learning/scratch-olympics-weightlifter
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: rpi, physical computing, python
+site_areas: ''
+steps:
+- title: Introduction
+- title: What you will need
+- title: The Scratch Olympics Weightlifter
+- title: Getting the game assets
+- title: Importing the assets into Scratch
+- title: Testing the animation
+- title: Capturing the speed of key presses
+- title: Making the character lift
+- title: Making it a little trickier
+- title: Looping the animation
+- title: Adding in a "strain" stage
+- title: More rolls
+- title: What next?
+- title: Scratch Olympics Weightlifter
+- title: Wiring up the buttons
+- title: Reading the buttons
+- title: Using the buttons
+- title: What next?
+
