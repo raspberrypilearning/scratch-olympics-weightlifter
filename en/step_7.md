@@ -1,21 +1,18 @@
-## Capturing the speed of key presses
+## Making the character lift
 
-The progress the weightlifter makes is going to be controlled by the speed at which the player can hit the `z` and `x` keys, so you need to create some scripts that will capture this data.
+- There are a total of 29 costumes in the game. The sprite's costume can be continually set so that it's the same as the `progress` variable. That way, as `progress` increases, the costume will change. When `progress` reaches `29`, the game can end.
 
-You're going to need two **variables** in this game. The first, called `progress`, will be used to record how far into the lift the weightlifter has managed to get. The second, called `last_key`, will be used to store the last key press the player made.
+- You will need a `forever` loop for the main logic of the game. Find a `forever` loop in the **Control** section and add it to the bottom of your main script:
 
-- Create these two variables by clicking in **Variables** and then clicking on **Make a variable**.
-- Then you can start your script by setting `progress` to be `1` and `last_key` to be `x` when the game starts:
+    ![capture](images/capture5.png)
 
-    ![capture](images/capture2.png)
+- Now place another conditional block within the `forever` loop; this time, you can use an `if else` block. If `progress` reaches `29` then the sprite can `say "I win"`, the costume can be set back to costume 1, and the script can be stopped. If `29` has not yet been reached, then the costume can be set to the same value as `progress`.
+- You can't actually set a costume to a specific number in Scratch, but you can use the `round` operator from **Operators** to set the costume to a specific number:
 
-- The player must switch between hitting the `x` key and the `z` key for the `progress` to increase, so when the `x` key is pressed, your script needs to check that the last key press was `z`. If it was, then `progress` can be increased and the `last_key` can be switched to `x`. This is called **conditional selection**. The action only occurs `if` a variable is at the correct value:
-
-    ![capture](images/capture3.png)
+    ![capture](images/capture6.png)
 	
-- Of course, you want the same sort of thing to happen when you press the `z` key. You can duplicate the script by right-clicking on it and selecting **duplicate** from the context menu, then changing the duplicated script so it looks like the one below:
+- Have a go at testing your script. Click the green flag and then start hitting the `x` and `z` keys alternately to watch the weightlifter go.
+- It's a good idea to reset the costume back to number 1 each time the script starts:
 
-    ![capture](images/capture4.png)
-
-- Test that your game works by clicking on the green flag and then repeatedly hitting the `x` and `z` keys on the keyboard. You should see the variable `progress` increasing. The faster you hit the keys, the faster `progress` will increase.
+    ![capture](images/capture7.png)
 

@@ -1,10 +1,8 @@
-## Importing the assets into Scratch
+## Testing the animation
 
-Open Scratch by clicking `Menu` > `Programming` > `Scratch`.
+You can check whether the animation will work using the simple script shown below:
 
-Now click on the **Stage** icon and then drag and drop the Olympics background into the **Backgrounds** tab. You can delete the original background.
+![capture1](images/capture1.png)
 
-Next, click on **Sprite1** and then, one by one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
-
-![screencap](images/screencap.gif)
+Click on the green flag and watch the weightlifter do his thing!
 

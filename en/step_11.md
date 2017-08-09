@@ -1,22 +1,18 @@
-## Adding in a "strain" stage
+## More rolls
 
-- There are more sections that can be looped over. Create a new `when I receive` block and change it to `stage1`:
+There are a few more opportunities to roll the animation. Costumes 15, 16, 17, and 18 can be looped, as can 23, 24, 25, 26, and 27.
 
-    ![capture](images/capture16.png)
+- To do this, you can duplicate the scripts you have already used and just alter the values and broadcasts. Try and build the blocks below and then put the broadcasts into your main script:
 
-- When this is triggered, the game will get more difficult, so set `difficulty` to `-2`:
-
-    ![capture](images/capture17.png)
+    ![capture](images/capture21.png)
 	
-- This little script will be very similar to `starting`, except it will loop through costumes 9 to 12 and will stay working until `progress` is `< 9 or > 12`. Have a go at building the script shown below:
-
-    ![capture](images/capture18.png)
+	![capture](images/capture22.png)
 	
-- This script can be triggered whenever `progress` is between 8 and 12 (`progress > 8 and progress < 13`). It should then wait until progress is no longer between 8 and 12 (`progress < 9 or progress > 12`):
+- To test the script, you might want to alter the `wait` value which controls how quickly `progress` is decreased:
 
-    ![capture](images/capture19.png)
+    ![capture](images/capture23.png)
 
-- Test your script again to make sure that the animation rolls at the correct point. You might need to adjust the `wait` in the block below to a different number to test it properly:
+- If your scripts aren't working, have a look at the completed game below to make sure you haven't made any errors:
 
-    ![capture](images/capture20.png)
-
+    ![capture](images/capture24.png)
+	

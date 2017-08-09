@@ -1,8 +1,10 @@
-## Getting the game assets
+## Importing the assets into Scratch
 
-For this project, you're going to need a sprite and a background. You can download a zip file containing all the game assets by clicking [here](images/scratch_olympics_weightlifter.zip) and choosing to download the file. 
+Open Scratch by clicking `Menu` > `Programming` > `Scratch`.
 
-Once the file has been downloaded, you can unzip the archive by right-clicking on it and choosing `unzip`.
+Now click on the **Stage** icon and then drag and drop the Olympics background into the **Backgrounds** tab. You can delete the original background.
 
-You should see two directories: one containing the weightlifter's costumes and the other containing the background.
+Next, click on **Sprite1** and then, one by one, drag and drop the Weightlifter costumes into the **Costumes** tab. You can delete the original costumes.
+
+![screencap](images/screencap.gif)
 

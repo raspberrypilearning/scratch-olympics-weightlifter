@@ -1,6 +1,8 @@
-## The Scratch Olympics Weightlifter
+## Getting the game assets
 
-![cover](images/cover.gif)
+For this project, you're going to need a sprite and a background. You can download a zip file containing all the game assets by clicking [here](images/scratch_olympics_weightlifter.zip) and choosing to download the file. 
 
-In this activity, you will make a game in Scratch that allows you to test your keyboard-mashing skills. By repeatedly hitting the keyboard, the character will lift their barbell high into the air. There will also be the opportunity to have a play with some physical computing, and introduce some arcade-style buttons into the game.
+Once the file has been downloaded, you can unzip the archive by right-clicking on it and choosing `unzip`.
+
+You should see two directories: one containing the weightlifter's costumes and the other containing the background.
 

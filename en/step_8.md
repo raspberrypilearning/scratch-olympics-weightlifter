@@ -1,18 +1,20 @@
-## Making the character lift
+## Making it a little trickier
 
-- There are a total of 29 costumes in the game. The sprite's costume can be continually set so that it's the same as the `progress` variable. That way, as `progress` increases, the costume will change. When `progress` reaches `29`, the game can end.
+- If you stop hitting the `x` and `z` keys, then the weightlifter just stops lifting. It would be good if he started to put the weight back down if the player's speed on the keyboard decreases. This can be done by decreasing the value of `progress` every once in a while. To start with, create a new variable and call it `difficulty`. This can be set to -1 in the main script:
 
-- You will need a `forever` loop for the main logic of the game. Find a `forever` loop in the **Control** section and add it to the bottom of your main script:
-
-    ![capture](images/capture5.png)
-
-- Now place another conditional block within the `forever` loop; this time, you can use an `if else` block. If `progress` reaches `29` then the sprite can `say "I win"`, the costume can be set back to costume 1, and the script can be stopped. If `29` has not yet been reached, then the costume can be set to the same value as `progress`.
-- You can't actually set a costume to a specific number in Scratch, but you can use the `round` operator from **Operators** to set the costume to a specific number:
-
-    ![capture](images/capture6.png)
+    ![capture](images/capture8.png)
 	
-- Have a go at testing your script. Click the green flag and then start hitting the `x` and `z` keys alternately to watch the weightlifter go.
-- It's a good idea to reset the costume back to number 1 each time the script starts:
+- Grab a new `when green flag clicked` block and place it into the Scripts area. You can now use a `forever if` loop, which will run as long as a variable is at a certain value. You want it to run as long as `progress` is greater than `1`:
 
-    ![capture](images/capture7.png)
+    ![capture](images/capture9.png)
+
+- Inside the `forever if` loop, you'll need to keep changing `progress` by the value of `difficulty`. As difficulty is a negative number, this will keep reducing progress until it reaches 1. You'll need to use a little `wait` command as well, since computers are so fast there's no way a player could keep up with the computer otherwise. Waiting for `0.4` seconds will do to start with:
+    
+	![capture](images/capture10.png)
+
+- Test your game to see the weightlifter pick up the weight as you hit the keys, but lower it again if you stop pressing them.
+
+- If it's not working, have a look at the scripts below and make sure yours are the same:
+
+    ![capture](images/capture11.png)
 

@@ -15,7 +15,6 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: The Scratch Olympics Weightlifter
 - title: Getting the game assets
 - title: Importing the assets into Scratch
 - title: Testing the animation
@@ -25,8 +24,6 @@ steps:
 - title: Looping the animation
 - title: Adding in a "strain" stage
 - title: More rolls
-- title: What next?
-- title: Scratch Olympics Weightlifter
 - title: Wiring up the buttons
 - title: Reading the buttons
 - title: Using the buttons
