@@ -24,7 +24,7 @@ This is what your code should look like:
 ![Code for switching costume](images/weights-costume-code.png)
 --- /hint --- --- /hints ---
 
-+ Test. As you press the `z` and `x` keys you should see the weightlifter move through the animation.
++ Test your code. As you press the `z` and `x` keys you should see the weightlifter move through the animation.
 
 + How fast can you press the keys to animate your weightlifter? What happens if you just hold down both the `z` and `x` keys?
 

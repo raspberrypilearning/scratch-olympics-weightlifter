@@ -2,7 +2,7 @@
 
 At the moment your game is very easy! Let's make the `progress` go backwards if keys aren't being pressed!
 
-![A harder lift](images/weights-negative-animation.gif)
+![A harder lift](images/weights-backwards-animation.gif)
 
 + Add code to your `forever` {.blockcontrol} loop to change the `progress` {.blockdata} by -1 every 0.3 seconds.
 
@@ -36,8 +36,8 @@ This is what your code should look like:
 ![Code for fixing negative progress](images/weights-progress-reduce-fix-code.png)
 --- /hint --- --- /hints ---
 
-+ Test your code again. Press some buttons and then stop. Does your animation stop at 1?
++ Test your code again. Press some buttons and then stop. Does your animation and `progress` {.blockdata} stop at 1?
 
-+ At the end of the lift, if you want to stop the animation going back to the start you can add this code:
++ At the end of the lift, if you want to stop the animation going backwards to the start you can add this code:
 
 ![Stopping at the end of a lift](images/weights-stop-animation.png)
