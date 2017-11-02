@@ -7,7 +7,7 @@ Make a weightlifting game, which requires the player to press buttons on the key
 Click the green flag to play. Use the `z` and `x` keys to help the weighlifter compete. How fast can you complete the lift?
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" src="https://scratch.mit.edu/projects/embed/183527189/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/183527189/?autostart=false" frameborder="0"></iframe>
 </div>
 
 ### What you will learn
