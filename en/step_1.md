@@ -1,15 +1,24 @@
-## What you will make
-In this resource you will use Scratch to make a weightlifting game, which requires the player to either rapidly hit the keyboard or buttons to make the weightlifter compete.
+## Introduction
 
-## What you will learn
-By creating a Scratch Olympics Weightlifter game, you will learn:
+Make a weightlifting game, which requires the player to press buttons on the keyboard as fast as possible to make the weightlifter compete.
 
-- How to animate costumes in Scratch
-- How to use conditional selection and Boolean operators to make changes in a program
-- How to use conditional loops in a game
-- How to use physical buttons in Scratch.
+### What you will make
+
+Click the green flag to play. Use the `z` and `x` keys to help the weighlifter compete. How fast can you complete the lift?
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/183527189/?autostart=false" frameborder="0"></iframe>
+</div>
+
+### What you will learn
 
 This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
 
-- [Combine programming constructs to solve a problem](https://www.raspberrypi.org/curriculum/programming/builder)
+- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator)
 
+### Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/scratch-olympics-weightlifter/print){:target="_blank"}.
+
+Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
