@@ -16,12 +16,14 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: Progressing through the lift
 - title: Animating your weightlifter
 - title: Making the lift harder!
 - title: Varying the difficulty
-- title: "Challenge: Testing the difficulty"
-- title: "Challenge: Adding a timer"
+- title: 'Challenge: Testing the difficulty'
+  completion: internal
+- title: 'Challenge: Adding a timer'
